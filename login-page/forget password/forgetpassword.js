@@ -34,6 +34,5 @@ function goToStep(stepNumber) {
                 alert("Passwords do not match!");
             } else {
                 alert("Password reset successfully!");
-                // Here you can trigger a backend call
             }
         });
