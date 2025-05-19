@@ -1,0 +1,130 @@
+/* Import font */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #c3c3d44f, #2575fc);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    /* background-color: transparent; */
+    background: linear-gradient(45deg, #2574fc5e, #c3c3d44f);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+}
+
+.brand-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.goback {
+    width: 30px;
+    height:30px;
+    justify-content: left;
+    align-items: left;
+}
+
+.brand-name h1 {
+    font-size: 24px;
+    color: #2e7d32;
+    margin: 0;
+}
+
+.form-content h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0090ff;
+    box-shadow: 0 0 4px rgba(1, 12, 31, 0.5);
+}
+
+.buttons {
+    text-align: center;
+    margin: 0px 100px;
+    padding: 12px;
+}
+
+.login-btn {
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background-color: #1c551f;
+}
+
+.sign-up {
+    text-align: center;
+    margin: 12px 0px;
+    font-weight: bolder;
+}
+
+.sign-up a {
+    color: #111111;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    .brand-name h1 {
+        font-size: 20px;
+    }
+
+    .form-content h1 {
+        font-size: 18px;
+    }
+}
