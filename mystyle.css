@@ -746,9 +746,9 @@ input[name="slider"] {
     border-bottom: none;
   }
 
-  .services-title {
+  /* .services-title {
     font-size: 24px;
-  }
+  } */
 
   .pricing-cards {
     flex-direction: column;
@@ -790,7 +790,7 @@ input[name="slider"] {
     font-size: 14px;
   }
 
-  .services-title,
+  /* .services-title,
   .pricing-section .section-title,
   .posts-section h2 {
     font-size: 22px;
@@ -800,19 +800,19 @@ input[name="slider"] {
   .pricing-header,
   .post-title {
     font-size: 16px;
-  }
+  } */
 
   .price {
     font-size: 24px;
   }
 
-  .post-date-day {
+  /* .post-date-day {
     font-size: 20px;
   }
 
   .posts-section h2 {
     padding: 0 10px;
-  }
+  } */
 
   .slider {
     margin: 30px 10px;
@@ -821,9 +821,9 @@ input[name="slider"] {
   .slide p {
     font-size: 16px;
   }
-
+/* 
   .view-more-btn {
     padding: 6px 12px;
     font-size: 13px;
-  }
+  } */
 }
